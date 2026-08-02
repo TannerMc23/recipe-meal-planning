@@ -5,7 +5,7 @@
     "description": "CSE 341 Final Project - Week 5: Recipes and Ingredients collections with full CRUD.",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "recipe-meal-planning.onrender.com",
   "basePath": "/",
   "schemes": [
     "https",
