@@ -6,16 +6,22 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "swagger": "node swagger.js"
+    "swagger": "node swagger.js",
+    "test": "jest --runInBand"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-session": "^1.18.0",
     "mongoose": "^8.5.1",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^3.1.4",
+    "supertest": "^7.0.0",
     "swagger-autogen": "^2.23.7"
   }
 }
